@@ -2,6 +2,7 @@ import './App.css'
 import Contador from './component/Contador'
 import ListaDeTareas from './component/ListaDeTareas.jsx'
 import LoginForm from './component/Loginform'
+import Reloj from './component/Reloj.jsx'
 import Saludo from './component/Saludo'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <Reloj/>
       <Saludo/>
       < Contador/><br/>
       < LoginForm/>
